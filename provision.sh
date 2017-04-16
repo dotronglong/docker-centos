@@ -16,4 +16,3 @@ curl -L "https://github.com/docker/compose/releases/download/1.12.0/docker-compo
 chmod +x /usr/bin/docker-compose
 
 usermod -aG docker vagrant
-systemctl enable docker
